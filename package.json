@@ -1,0 +1,26 @@
+{
+  "name": "videoframe",
+  "version": "0.0.1",
+  "description": "nodejs library to capture video frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "coffee test/index.coffee <test/test.mp4 >/tmp/test.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhtanghk/videoframe.git"
+  },
+  "author": "Tommy Tang <twhtanghk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhtanghk/videoframe/issues"
+  },
+  "homepage": "https://github.com/twhtanghk/videoframe#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "coffee-script": "^1.11.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "lodash": "^4.16.2",
+    "node-uuid": "^1.4.7"
+  }
+}
