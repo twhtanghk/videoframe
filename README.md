@@ -7,4 +7,4 @@ npm install videoframe
 ```
 
 ## Usage
-see [test/index.coffee](https://github.com/twhtanghk/videoframe/index.coffee)
+see [test/index.coffee](https://github.com/twhtanghk/videoframe/blob/master/test/index.coffee)
